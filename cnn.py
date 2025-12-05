@@ -42,7 +42,7 @@ class CNN(nn.Module):
         self.classifier = nn.Sequential(
             nn.Flatten(),
             nn.Dropout(0.3),
-            nn.Linear(hidden_units1 * 7 * 7, output_shape)
+            nn.Linear(hidden_units1 * 16 * 16, output_shape)
         )
     
     def forward(self, x):
