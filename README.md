@@ -3,8 +3,10 @@
 This repository focuses on medical image classification using the **MedMNIST** suite of datasets.  
 The selected dataset is **TissueMNIST2D**, consisting of 2D fluorescence microscopy tissue images.  
 Three main architectures were implemented and compared: a **custom CNN**, **ResNet18**, and a **Vision Transformer (ViT)**.  
-Additional experiments include **transfer learning** using pretrained weights.
+Additional experiments include **transfer learning** using pretrained weights. The goal of the project is to improve the results 
+based on the public benchmarks for this specific dataset. 
 
+More info for MedMnist: https://medmnist.com
 ---
 
 ## 📂 Dataset: TissueMNIST2D
@@ -14,8 +16,6 @@ Additional experiments include **transfer learning** using pretrained weights.
 - In this project, 64x64 images were used.
 - 8 tissue-type classes  
 - Automatically downloaded using the MedMNIST Python API
-  
-More info: https://medmnist.com
 
 ---
 
